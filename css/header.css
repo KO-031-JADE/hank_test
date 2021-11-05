@@ -1,0 +1,56 @@
+header{
+  width:100%;
+  height:auto;
+}
+.h_wrap{
+  width:100%;
+  max-width:1440px;
+  height:auto;
+  padding: 30px 2.5%;
+  box-sizing: border-box;
+
+  /* display: flex; */
+}
+
+.h_wrap div{
+  width:33.333333%;
+}
+.h_wrap div ul{
+  display: flex;
+}
+.h_left{
+  float:left;
+}
+.h_left ul{
+  display: flex;
+}
+.h_left ul li{
+  flex:1 1 auto;
+}
+.h_left ul li a{
+  font-size: 14px;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+}
+.h_center{
+  float:left;text-align: center;
+}
+.h_center img{
+  
+}
+
+
+.h_right{
+  float:left;
+}
+.h_right ul{
+  display: flex;
+}
+.h_right ul li{
+  flex:1 1 auto;
+}
+.h_right ul li a{
+  font-size: 14px;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+}
